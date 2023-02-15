@@ -1,18 +1,18 @@
 //your code here
-let btn= document.getElementById('btn');
-let numPtag=document.getElementById('num');
-let res=document.getElementById('respond');
-let inputValue=document.getElementById('guess').value;
+var btn= document.getElementById('btn');
+var numPtag=document.getElementById('num');
+var res=document.getElementById('respond');
+var inputValue=document.getElementById('guess').value;
 
 function randomNumberGenerator(){
-   let randomNum=Math.floor(Math.random()*41)-20;
+    randomNum=Math.floor(Math.random()*41)-20;
     numPtag.innerText=randomNum;
     guessNum();
     print();
 }
 
 function guessNum(){
-    let input = Number(document.getElementById('guess').value);
+     input = Number(document.getElementById('guess').value);
 }
 
 function print(){
